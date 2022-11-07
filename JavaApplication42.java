@@ -58,7 +58,9 @@ public class JavaApplication42 {
                                 frrr +=in;
                             else if ((i%2)==0 && i !=1)
                                 frrr -=in;}
-                        System.out.println(z+frrr*-1);
+                        System.out.print(z);
+                        System.out.printf("%.3f",(frrr*-1));
+                        System.out.println("");
                         break;}
                     else{
                         System.out.println("THE NUMBER YOU ENTERED NOT IN RANGE FROM 1 TO 7");
