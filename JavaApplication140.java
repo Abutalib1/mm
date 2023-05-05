@@ -2,7 +2,7 @@ package javaapplication140;
 public class JavaApplication140 {
     public static void main(String[] args) {
         int n = 9;
-        PrintPyramid(9,1);       
+        PrintPyramid(n,1);       
     }
     public static void PrintPyramid(int n,int i){
         if ( n != 0 ){
